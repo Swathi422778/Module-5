@@ -39,10 +39,29 @@ To write a Python program to get the name, age, and ID of a person and display t
 ### PROGRAM
 
 ```
-
-
+class student:
+    def stud(self):
+        self.name=name
+        self.age=age
+        self.id=id
+class Print(student):
+    def student(self):
+        if id>2000:
+            print(f"{self.name}\n{self.age}\nValid Student")
+        else:
+            print(f"{self.name}\n{self.age}\nInvalid Student")
+            
+name=input()
+age=int(input())
+id=int(input())
+obj=Print()
+obj.stud()
+obj.student()
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/f63363f7-11dd-4ba2-96e0-a7d52a63b79a)
+
 
 ### RESULT
+Thus the Python program for getting the name, age, and ID of a person and display them using multilevel inheritance is successfully verified.
